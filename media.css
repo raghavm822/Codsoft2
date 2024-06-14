@@ -1,0 +1,177 @@
+@media screen  and (max-width: 991px) {
+    #box video{
+        height: 400px;
+    }
+
+    .box-contain{
+        height: 400px;
+    }
+
+    .box-contain form input{
+        width: 40%;
+    }
+
+    .box-contain form button{
+        width: 11%;
+    }
+
+    #about{
+        height: 900px;
+    }
+
+    #products{
+        height: 1200px;
+    }
+
+    .pro1 img{
+        height: 550px;
+        padding-bottom: 20px;
+    }
+
+    .con1 h3{
+        padding-left: 40px;
+    }
+
+    .con1 h4{
+        padding-left: 40px;
+        width: 150%;
+    }
+
+    .con3{
+        margin-left: 15%;
+    }
+
+    .con3 form input{
+        width: 90%;
+    }
+
+    .con3 form textarea{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 851px) {
+    #about{
+        height: 1050px;
+    }
+
+    .con1 h4{
+        font-size: 13px;
+    }
+
+    .con3 form input{
+        width: 80%;
+    }
+
+    .con3 form textarea{
+        width: 80%;
+    }
+
+    .con3{
+        margin-left: 25%;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    nav h1{
+        font-size: 15px;
+    }
+
+    .links a{
+        display: none;
+    }
+
+    
+
+    .links i{
+        display: block;
+        color: #fdedd3;
+        font-size: 30px;
+    }
+
+    #box video{
+        height: 350px;
+    }
+
+    .box-contain{
+        height: 350px;
+    }
+
+    .box-contain h1{
+        font-size: 30px;
+        padding-top: 90px;
+    }
+
+    .box-contain h3{
+        font-size: 10px;
+        padding-top: 10px;
+    }
+
+    .box-contain form input{
+        width: 50%;
+        padding-bottom: 4.5px;
+    }
+
+    .box-contain form button{
+        width: 18%;
+        font-size: 12px;
+    }
+
+    .box-contain form input::placeholder{
+        font-size: 12px;
+    }
+
+    #about{
+        height: 730px;
+    }
+
+    .about-vid video{
+        display: none;
+    }
+
+    .about-text{
+        width: calc(100% - 20px);
+    }
+
+    .about-text h4{
+        font-size: 13px;
+    }
+
+    .about-text h1{
+        font-size: 20px;
+    }
+
+    #products{
+        height: 730px;
+    }
+
+    .pro1 img{
+        height: 300px;
+    }
+
+    #contact{
+        height: 550px;
+    }
+    
+    .con1{
+        margin-left: -10%;
+        margin-top: 8;
+    }
+
+    .con3{
+        margin-top: 20%;
+        margin-left: 2%;
+    }
+
+    .con3 form input{
+        width: 95%;
+    }
+
+    .con3 form textarea{
+        width: 95%;
+    }
+
+    .con3 form button{
+        font-size: 16px;
+    }
+}
